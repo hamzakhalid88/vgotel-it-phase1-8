@@ -1,0 +1,37 @@
+{
+  "app_name": "Vgotel IT Console",
+  "company_name": "Vgotel",
+  "database": {
+    "dialect": "sqlite",
+    "sqlite_path": "data/vgotel_dev.db",
+    "server": "",
+    "database_name": "Vgotel_IT_DB",
+    "driver": "ODBC Driver 17 for SQL Server",
+    "trusted_connection": true,
+    "username": ""
+  },
+  "numbering": {
+    "asset_prefix": "AST",
+    "maintenance_prefix": "MNT",
+    "gate_pass_prefix": "GP",
+    "invoice_prefix": "INV"
+  },
+  "warranty_alert_days": 30,
+  "paths": {
+    "attachments_dir": "attachments",
+    "exports_dir": "exports",
+    "backups_dir": "backups",
+    "logs_dir": "logs"
+  },
+  "backup": {
+    "auto_backup_enabled": false,
+    "auto_backup_interval_hours": 24,
+    "keep_last_n_backups": 10
+  },
+  "ui": {
+    "theme": "ledger",
+    "font_ui": "Inter",
+    "font_heading": "Source Serif 4",
+    "rows_per_page": 50
+  }
+}
